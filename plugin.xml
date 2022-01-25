@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="de">Flowbox</label>
+    <label lang="en">Flowbox</label>
+    <version>1.2.1</version>
+    <copyright>(c) Flowbox</copyright>
+    <license>Proprietary</license>
+    <link>https://getflowbox.com/</link>
+    <author>Dutchdrops</author>
+    <description>
+        <![CDATA[
+        Flowbox provides a platform which collects user-generated content from social media and enables clients to receive the legal rights to use it in their marketing and communications.
+        ]]>
+    </description>
+    <description lang="de">
+        <![CDATA[
+        Flowbox bietet eine Plattform, die benutzergenerierte Inhalte aus sozialen Medien sammelt und es Kunden ermöglicht, die gesetzlichen Rechte zur Nutzung in ihren Marketing
+        ]]>
+    </description>
+    <compatibility minVersion="5.6.3" />
+    <changelog version="1.0.0">
+        <changes>
+            <![CDATA[
+            First release Shopware Community Store
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Erstveröffentlichung Shopware Community Store
+            ]]>
+        </changes>
+    </changelog>
+    <changelog version="1.0.3">
+        <changes>
+            <![CDATA[
+            Added checkout script
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Checkout-Skript hinzugefügt
+            ]]>
+        </changes>
+    </changelog>
+    <changelog version="1.0.4">
+        <changes>
+            <![CDATA[
+            Checkout script optimizations
+            Locale optimizations
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Checkout-Skript-Optimierungen
+            Gebietsschema-Optimierungen
+            ]]>
+        </changes>
+    </changelog>
+    <changelog version="1.1.0">
+        <changes>
+            <![CDATA[
+            Compatability with cookie consent manager
+            Minimal Shopware version raised to 5.6.3
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Kompatibilität mit dem Cookie-Zustimmungsmanager
+            Minimale Shopware-Version auf 5.6.3 angehoben
+            ]]>
+        </changes>
+    </changelog>
+    <changelog version="1.2.0">
+        <changes>
+            <![CDATA[
+            Make use of widgets for better compatability with http cache
+            Cookie script optimizations
+            Checkout script optimizations
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Nutzen Sie Widgets für eine bessere Kompatibilität mit dem http-Cache
+            Optimierung von Cookie-Skripten
+            Checkout-Skript-Optimierungen
+            ]]>
+        </changes>
+    </changelog>
+    <changelog version="1.2.1">
+        <changes>
+            <![CDATA[
+            Shopping world locale fix
+            Product page and checkout support for EAN added
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Korrektur des Gebietsschemas der Einkaufswelt
+            Produktseite und Checkout-Unterstützung für EAN hinzugefügt
+            ]]>
+        </changes>
+    </changelog>
+</plugin>

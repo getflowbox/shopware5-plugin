@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+
+    <elements>
+
+        <element type="select" scope="shop">
+            <name>flowbox_flow_language</name>
+            <label lang="de">Flow sprache</label>
+            <label lang="en">Flow language</label>
+            <store>
+                <option>
+                    <value>en</value>
+                    <label lang="de">Englisch</label>
+                    <label lang="en">English</label>
+                </option>
+                <option>
+                    <value>de</value>
+                    <label lang="de">Deutsch</label>
+                    <label lang="en">German</label>
+                </option>
+                <option>
+                    <value>da</value>
+                    <label lang="de">Dänisch</label>
+                    <label lang="en">Danish</label>
+                </option>
+                <option>
+                    <value>es</value>
+                    <label lang="de">Spanisch</label>
+                    <label lang="en">Spanish</label>
+                </option>                
+                <option>
+                    <value>fi</value>
+                    <label lang="de">Finnisch</label>
+                    <label lang="en">Finnish</label>
+                </option>
+                <option>
+                    <value>fr</value>
+                    <label lang="de">Französisch</label>
+                    <label lang="en">French</label>
+                </option>
+                <option>
+                    <value>nl</value>
+                    <label lang="de">Niederländisch</label>
+                    <label lang="en">Dutch</label>
+                </option>
+                <option>
+                    <value>nb</value>
+                    <label lang="de">Norwegisch Bokmål</label>
+                    <label lang="en">Norwegian Bokmål</label>
+                </option>
+                <option>
+                    <value>pt</value>
+                    <label lang="de">Portugiesisch</label>
+                    <label lang="en">Portuguese</label>
+                </option>
+                <option>
+                    <value>sv</value>
+                    <label lang="de">Schwedisch</label>
+                    <label lang="en">Swedish</label>
+                </option>
+            </store>
+        </element>
+
+        <element type="select" scope="shop">
+            <name>flowbox_product_identifier</name>
+            <label lang="de">Welche Kennung soll für Produkte verwendet werden?</label>
+            <label lang="en">Which identifier to use for products?</label>
+            <store>
+                <option>
+                    <value>Sku</value>
+                    <label lang="de">Artikelnummer</label>
+                    <label lang="en">Item number</label>
+                </option>
+                <option>
+                    <value>Id</value>
+                    <label lang="de">Artikel ID</label>
+                    <label lang="en">Item ID</label>
+                </option>
+                <option>
+                    <value>Ean</value>
+                    <label lang="de">EAN</label>
+                    <label lang="en">EAN</label>
+                </option>
+            </store>
+        </element>
+
+        <element type="select" scope="shop">
+            <name>flowbox_pdp_active</name>
+            <label lang="de">Flow auf Produktdetailseite anzeigen</label>
+            <label lang="en">Show Flow on product detail page</label>
+            <store>
+                <option>
+                    <value>no</value>
+                    <label lang="de">Nein</label>
+                    <label lang="en">No</label>
+                </option>
+                <option>
+                    <value>yes</value>
+                    <label lang="de">Ja</label>
+                    <label lang="en">Yes</label>
+                </option>                
+            </store>
+        </element>
+
+        <element type="select" scope="shop">
+            <name>flowbox_pdp_dynamic</name>
+            <label lang="de">Dynamischer Fluss basierend auf Produktkennung?</label>
+            <label lang="en">Dynamic Flow based on product identifier?</label>
+            <store>
+                <option>
+                    <value>yes</value>
+                    <label lang="de">Ja</label>
+                    <label lang="en">Yes</label>
+                </option>
+                <option>
+                    <value>no</value>
+                    <label lang="de">Nein</label>
+                    <label lang="en">No</label>
+                </option>
+            </store>
+        </element>
+
+        <element type="select" scope="shop">
+            <name>flowbox_pdp_position</name>
+            <label lang="de">Flow position auf der Produktdetailseite</label>
+            <label lang="en">Flow position on product detail page</label>
+            <store>
+                <option>
+                    <value>after</value>
+                    <label lang="de">Nach Cross Selling-Block</label>
+                    <label lang="en">After Cross Selling Block</label>
+                </option>
+                <option>
+                    <value>before</value>
+                    <label lang="de">Vor dem Cross-Selling-Block</label>
+                    <label lang="en">Before Cross Selling Block</label>
+                </option>
+            </store>
+        </element>
+
+        <element type="text" scope="shop">
+            <name>flowbox_pdp_flow_key</name>
+            <label lang="de">Flow Key</label>
+            <label lang="en">Flow Key</label>
+            <description lang="de">Flow Key zur Verwendung auf der Produktdetailseite (wird nach Produktnummer gefiltert)</description>
+            <description lang="en">Flow key to use on product detail page (will be filtered by product number)</description>
+        </element>
+
+        <element type="select" scope="shop">
+            <name>flowbox_enable_checkout_script</name>
+            <label lang="de">Möchten Sie die Checkout-Integration aktivieren?</label>
+            <label lang="en">Do you want to enable the Checkout integration?</label>
+            <label lang="en">Do you want to enable the Checkout integration?</label>
+            <store>
+                <option>
+                    <value>no</value>
+                    <label lang="de">Nein</label>
+                    <label lang="en">No</label>
+                </option>
+                <option>
+                    <value>yes</value>
+                    <label lang="de">Ja</label>
+                    <label lang="en">Yes</label>
+                </option>
+            </store>
+        </element>
+
+        <element type="text" scope="shop">
+            <name>flowbox_checkout_api_key</name>
+            <label lang="de">Flow API Key</label>
+            <label lang="en">Flow API Key</label>
+            <description lang="de">Flow API Key - key for checkout script </description>
+            <description lang="en">Flow API Key - key for checkout script</description>
+        </element>
+
+    </elements>
+
+</config>
