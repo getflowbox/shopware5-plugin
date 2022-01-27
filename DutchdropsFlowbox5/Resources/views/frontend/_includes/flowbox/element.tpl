@@ -5,7 +5,9 @@
     {/foreach}
 </div>
 {/if}
-<div id="js-flowbox-flow-{$fbId}"></div>
+<div class="flowbox-widget-container" data-flowboxKey="{$flowboxKey}">
+  <div id="js-flowbox-flow-{$fbId}"></div>
+</div>
 
 <script>
     {literal}window.flowbox('init', {/literal}{$fbConf|json_encode}{literal});{/literal}

@@ -19,5 +19,5 @@
         {/if}
     {/if}
 
-    {include file="frontend/_includes/flowbox/element.tpl" fbId="{$wArticleId}" fbConf=$flowboxPdpConf}
+    {include file="frontend/_includes/flowbox/element.tpl" fbId="{$wArticleId}" fbConf=$flowboxPdpConf flowboxKey=$flowboxPdpKey}
 {/block}
