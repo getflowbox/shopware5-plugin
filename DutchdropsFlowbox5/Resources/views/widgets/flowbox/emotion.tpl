@@ -17,7 +17,6 @@
 
     {if $wData.flowbox_tags}
         {assign var="flowboxTags" value="\n"|explode:$wData.flowbox_tags}
-        {$flowboxConf['tags'] = $flowboxTags}
         {$flowboxConf['tagsOperator'] = $wData.flowbox_tags_operator}
     {/if}
 
@@ -25,5 +24,5 @@
         {assign var="flowboxTabMenuTags" value="\n"|explode:$wData.flowbox_tabmenu_tags}
     {/if}
 
-    {include file="frontend/_includes/flowbox/element.tpl" fbKey=$flowboxKey fbId=$wId fbConf=$flowboxConf fbTabMenuTags=$flowboxTabMenuTags}
+    {include file="frontend/_includes/flowbox/element.tpl" fbKey=$flowboxKey fbId=$wId fbConf=$flowboxConf fbTabMenuTags=$flowboxTabMenuTags fbTags=$flowboxTags}
 {/block}

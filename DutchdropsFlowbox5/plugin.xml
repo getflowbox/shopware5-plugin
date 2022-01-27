@@ -2,7 +2,7 @@
 <plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
     <label lang="de">Flowbox</label>
     <label lang="en">Flowbox</label>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <copyright>(c) Flowbox</copyright>
     <license>Proprietary</license>
     <link>https://getflowbox.com/</link>
@@ -97,6 +97,13 @@
             <![CDATA[
             Korrektur des Gebietsschemas der Einkaufswelt
             Produktseite und Checkout-Unterstützung für EAN hinzugefügt
+            ]]>
+        </changes>
+    </changelog>
+    <changelog version="1.2.2">
+        <changes>
+            <![CDATA[
+            Fixed bug in Dynamic Tag Flow
             ]]>
         </changes>
     </changelog>
