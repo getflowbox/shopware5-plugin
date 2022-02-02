@@ -2,7 +2,7 @@
 <plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
     <label lang="de">Flowbox</label>
     <label lang="en">Flowbox</label>
-    <version>1.2.2</version>
+    <version>1.2.3</version>
     <copyright>(c) Flowbox</copyright>
     <license>Proprietary</license>
     <link>https://getflowbox.com/</link>
@@ -104,6 +104,23 @@
         <changes>
             <![CDATA[
             Fixed bug in Dynamic Tag Flow
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Korrektur des Dynamic Tag Flow
+            ]]>
+        </changes>
+    </changelog>
+    <changelog version="1.2.3">
+        <changes>
+            <![CDATA[
+            Fixed bug in PDP Tag Flow
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Korrektur des PDP Tag Flow
             ]]>
         </changes>
     </changelog>

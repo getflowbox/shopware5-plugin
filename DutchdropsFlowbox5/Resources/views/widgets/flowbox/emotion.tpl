@@ -22,6 +22,8 @@
 
     {if $wData.flowbox_tabmenu_tags}
         {assign var="flowboxTabMenuTags" value="\n"|explode:$wData.flowbox_tabmenu_tags}
+    {else}
+        {$flowboxConf['tags'] = $flowboxTags}
     {/if}
 
     {include file="frontend/_includes/flowbox/element.tpl" fbKey=$flowboxKey fbId=$wId fbConf=$flowboxConf fbTabMenuTags=$flowboxTabMenuTags fbTags=$flowboxTags}
